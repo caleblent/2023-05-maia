@@ -42,6 +42,8 @@ abstract contract ERC20Boost is ERC20, Ownable, IERC20Boost {
     //////////////////////////////////////////////////////////////*/
 
     /// @inheritdoc IERC20Boost
+    // @aeros: if this address[] grows too large, could this function be unreturnable? 
+    // i.e. the gas required to return this value surpasses the gas block limit
     function gauges() external view returns (address[] memory) {
         return _gauges.values();
     }
