@@ -1,0 +1,7 @@
+"Code4rena x MaiaDAO: Securing an ecosystem." (https://www.youtube.com/watch?v=M_WY0IPmd7E)
+- @ 8:00ish: Mentions that they're basically forking UniswapV3 but adding a minimum range for the liquidity.
+- @ 8:40 "What is the most important part [for the audit]?"
+    (1) Hermes reward/incentive system
+    (2) Ulysses Unified Liquidity AMM + cross-chain asset management
+
+
